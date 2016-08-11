@@ -1,6 +1,6 @@
 {
   "name": "animate.css",
-  "version": "3.4.0",
+  "version": "3.5.1",
   "main": "animate.css",
   "repository": {
     "type": "git",
@@ -20,13 +20,15 @@
     }
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-autoprefixer": "~0.4.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-banner": "~0.6.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-cssmin": "~0.8.0",
-    "load-grunt-tasks": "~0.2.0"
+    "autoprefixer": "^6.3.2",
+    "cssnano": "^3.5.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-header": "^1.7.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5"
   },
   "spm": {
     "main": "./animate.css"
